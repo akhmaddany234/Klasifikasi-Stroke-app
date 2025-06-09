@@ -426,19 +426,19 @@ def halaman_tentang_kami():
         "nama": "M. Alfa Reza Gobel",
         "nim": "23031554207",
         "deskripsi": "Mahasiswa  dengan minat di bidang Data Science dan Analisis Data. Aktif mengembangkan keterampilan dalam pengolahan, visualisasi, dan interpretasi data untuk mendukung pengambilan keputusan berbasis data.",
-        "foto": "image/Alfareza.jpg"
+        "foto": "Alfareza.jpg"
     }
     anggota2 = {
         "nama": "Akhmad Dany",
         "nim": "23031554234",
         "deskripsi": "Saya Akhmad Dany, seorang profesional di bidang Sains Data yang memiliki ketertarikan pada analisis data, machine learning, dan visualisasi informasi untuk mendukung pengambilan keputusan berbasis data.",
-        "foto": "image/Akhmad Dany.jpg"
+        "foto": "Akhmad Dany.jpg"
     }
     anggota3 = {
         "nama": "M. Aqsa Firdaus",
         "nim": "23031554087",
         "deskripsi": "Mahasiswa dengan ketertarikan pada analisis data dan keterampilan dalam menggunakan tools seperti Python, PostgreSQL dan Excel. Antusias dalam mengembangkan keterampilan baru dan siap berkolaborasi dalam tim.",
-        "foto": "image/Moh Aqsa Firdaus.jpg"
+        "foto": "Moh Aqsa Firdaus.jpg"
     }
 
     tim = [anggota1, anggota2, anggota3]

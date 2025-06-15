@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
+from sklearn.metrics import accuracy_score, precision_score, recall_score, confusion_matrix
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
@@ -271,7 +271,7 @@ def halaman_evaluasi():
     col3.metric("Recall (Sensitivity)", f"{recall:.2f}")
 
     col4, col5, col6 = st.columns(3)
-    col4.metric("F1-Score", f"{f1_score:.2f}")
+    col4.metric("F1-Measure", f"{f1_score:.2f}")
     col5.metric("Spesifisitas (Specificity)", f"{specificity:.2f}")
 
     st.subheader("Waktu Komputasi")
@@ -426,19 +426,19 @@ def halaman_tentang_kami():
         "nama": "M. Alfa Reza Gobel",
         "nim": "23031554207",
         "deskripsi": "Mahasiswa  dengan minat di bidang Data Science dan Analisis Data. Aktif mengembangkan keterampilan dalam pengolahan, visualisasi, dan interpretasi data untuk mendukung pengambilan keputusan berbasis data.",
-        "foto": "Alfareza.jpg"
+        "foto": "image/Alfareza.jpg"
     }
     anggota2 = {
         "nama": "Akhmad Dany",
         "nim": "23031554234",
         "deskripsi": "Saya Akhmad Dany, seorang profesional di bidang Sains Data yang memiliki ketertarikan pada analisis data, machine learning, dan visualisasi informasi untuk mendukung pengambilan keputusan berbasis data.",
-        "foto": "Akhmad Dany.jpg"
+        "foto": "image/Akhmad Dany.jpg"
     }
     anggota3 = {
         "nama": "M. Aqsa Firdaus",
         "nim": "23031554087",
         "deskripsi": "Mahasiswa dengan ketertarikan pada analisis data dan keterampilan dalam menggunakan tools seperti Python, PostgreSQL dan Excel. Antusias dalam mengembangkan keterampilan baru dan siap berkolaborasi dalam tim.",
-        "foto": "Moh Aqsa Firdaus.jpg"
+        "foto": "image/Moh Aqsa Firdaus.jpg"
     }
 
     tim = [anggota1, anggota2, anggota3]

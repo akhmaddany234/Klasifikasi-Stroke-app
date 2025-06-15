@@ -256,12 +256,12 @@ def halaman_evaluasi():
     )
 
     # --- Metrik Evaluasi (Placeholder) ---
-    accuracy = 0.7994
-    training_time = 120.50 
-    testing_time =  5.20 
-    precision = 0.7335 
-    recall = 0.9403
-    f1_measure = 0.8242
+    accuracy = 0.6663
+    training_time = 2.74 
+    testing_time =  0.01 
+    precision = 0.1099
+    recall = 0.8200
+    f1_score = 0.1939
     specificity = 0.6584
 
     st.subheader("Metrik Utama")
@@ -271,7 +271,7 @@ def halaman_evaluasi():
     col3.metric("Recall (Sensitivity)", f"{recall:.2f}")
 
     col4, col5, col6 = st.columns(3)
-    col4.metric("F1-Measure", f"{f1_measure:.2f}")
+    col4.metric("F1-Score", f"{f1_score:.2f}")
     col5.metric("Spesifisitas (Specificity)", f"{specificity:.2f}")
 
     st.subheader("Waktu Komputasi")
